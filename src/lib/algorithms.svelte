@@ -30,5 +30,6 @@
     padding: 10px;
     width: 35px;
     background: #4300b0;
+    border-radius: 10px;
   }
 </style>
