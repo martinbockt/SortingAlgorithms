@@ -1,11 +1,9 @@
 <script>
-    export let val
-    export let array
-    export let colors
+    import {array, colors} from '../store'
 </script>
 
 <div class="arrayWrap">
-    {#each array as item, index}
+    {#each $array as item, index}
         <div 
         style="
             height: {50 + item * 8}px;
